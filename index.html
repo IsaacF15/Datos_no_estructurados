@@ -1,50 +1,91 @@
----
-title: "Mi Página Personal"
-output:
-  html_document:
-    self_contained: true
----
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Página Personal</title>
 
-<style>
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-}
-.container {
-  max-width: 800px;
-  margin: auto;
-  background: white;
-  padding: 20px;
-  border-radius: 8px;
-}
-.button {
-  display: inline-block;
-  padding: 12px 20px;
-  background-color: #007BFF;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-}
-.button:hover {
-  background-color: #0056b3;
-}
-</style>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .button {
+            display: inline-block;
+            padding: 12px 20px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+        iframe {
+            width: 100%;
+            height: 400px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
 
 <div class="container">
 
-## 👤 Datos Personales
+    <h1>👤 Datos Personales</h1>
 
-**Nombre:** Tu nombre  
-**Correo:** tucorreo@email.com  
-**Carrera:** Tu carrera  
-**Descripción:** Breve descripción personal.
+    <img src="img/foto.jpg" alt="Foto personal">
 
----
+    <p><strong>Nombre:</strong> Isaac Felix</p>
+    <p><strong>Correo:</strong> isaacfelix245@gmail.com</p>
+    <p><strong>Carrera:</strong> Estadistica</p>
+    <p><strong>Descripción:</strong> Estudiante de ingenieria estadistica de la ESPOCH</p>
 
-## 🚀 Mi Aplicación
+    <hr>
 
-<a class="button" href="https://TU-USUARIO.github.io/TU-APP/" target="_blank">
-Abrir Aplicación
-</a>
+    <h2>🚀 Mi Aplicación</h2>
 
-</div>
+    <a class="button" href="https://TU-USUARIO.github.io/TU-APP/" target="_blank">
+        Abrir Aplicación
+    </a>
+
+    <hr>
+
+    <h2>🖼️ Imágenes</h2>
+
+    <img src="img/imagen1.jpg" alt="Imagen 1">
+    <img src="img/imagen2.jpg" alt="Imagen 2">
+
+    <hr>
+
+    <h2>📄 Documentos PDF</h2>
+
+    <ul>
+        <li><a href="pdf/cv.pdf" target="_blank">📄 Descargar CV</a></li>
+        <li><a href="pdf/documento.pdf" target="_blank">📄 Ver Documento</a></li>
+    </ul>
+
+    <hr>
+
+    <h2>▶️ Video de YouTube</h2>
+
+    <iframe 
+        src="https://www.youtube.com/embed/ID_DEL_VIDEO"
+        allo
+
